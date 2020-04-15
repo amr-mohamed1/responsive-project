@@ -80,5 +80,25 @@ width: 100%
 }
 .carousel
 {
- margin-top:60px   
+ margin-top:60px;
+position:relative;
+}
+.item
+{
+    position: absolute;
+    max-height:377px;
+    width:100%;
+}
+.im
+{
+ 
+    max-height:377px;
+     width:40%;
+}
+.carousel-indicators .active
+{
+    background-color: red;
+}
+.carousel-indicators li{
+    border:2px solid #333
 }
