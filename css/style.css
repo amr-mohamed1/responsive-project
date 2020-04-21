@@ -1,5 +1,5 @@
 body{
-   
+
 }
 .test{
     
@@ -10,7 +10,7 @@ body{
 .navbar
 {
     margin:0;
-    padding:3px
+    padding:3px;
 }
 .navbar-inverse .navbar-nav > li > a
 {
@@ -19,14 +19,8 @@ body{
 .navbar-inverse .navbar-nav:hover > li > a:hover
 {
     color:#e41b17;
-    font-weight:700;
-    font-family: cursive;
-    letter-spacing:1px;
-    font-size:16px
 }
-.navbar-inverse .navbar-nav > li > a{
-    transition:letter-spacing .4s ease , color .4s ease;
-}
+
 .navbar-inverse .navbar-nav:focus > li > a:focus{
     color:#C49B66
 }
@@ -101,4 +95,163 @@ position:relative;
 }
 .carousel-indicators li{
     border:2px solid #333
+}
+.carousel-caption
+{
+    background-color:rgba(0,0,0,.2);
+    margin-bottom:50px;
+    color:rgba(0,0,0,.6);
+    height:120px;
+    padding:30px;
+}
+.about
+{
+
+}
+.about h1
+{
+    text-align: center;
+    font-weight:bold;
+    color:#666666;
+    padding-top: 20px;
+
+}
+.about h1 span
+{
+    font-weight:bold;
+     text-shadow: 3px 3px 10px gold;
+    color:#444444;
+    font-family: sans-serif;
+    
+}
+.about p 
+{
+    color:#777777;
+    text-align: center;
+    padding-bottom:20px;
+    padding-top:10px
+}
+.features {
+
+}
+.features h2
+{
+    font-weight:900;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+.features .feat h4{
+    font-weight:bold;
+    font-family:cursive;
+    padding-bottom:10px;
+    padding-top:10px;
+    color:#191919;
+}
+
+.features .feat .glyphicon{
+    font-size:30px;
+    color:#595959;
+    font-weight:300
+}
+.features .feat p{
+ color:#666666;
+ line-height:1.6;
+}
+.testimonials h2
+{
+    font-weight:bold;
+    color:#404040;
+}
+.testimonials span
+{
+    font-weight:bold;
+    font-size:18px;
+    color:#e41b17;
+}
+.testimonials .carousel-inner
+{
+    min-height:150px
+}
+#user
+{
+    font-size:50px;
+    color:	  #999999;
+    padding-top: 50px
+}
+.testimonials .carousel
+{
+    margin-top:30px
+}
+.back
+{
+    background-image:linear-gradient(#270073, #f95b8e);
+}
+.about .container, .testimonials .container
+{
+    background-color:#fff;   
+}
+.features .container , .price .container{
+    background-color:#e4e4e4
+}
+.about .container
+{
+        border-top-right-radius: 25px; 
+       border-top-left-radius: 25px;
+}
+.price h2
+{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight:bold;
+}
+.price .price_table
+{
+    padding-bottom:20px;
+    padding-top: 20px;
+    background-color:#fff;
+    margin-bottom:50px;
+}
+.price .price_table p:hover
+{
+    border:2px solid #e41b17;
+    background-color: #dfc8ab;
+}
+.price .price_table:hover
+{
+ border-radius:30px;
+ border:2px solid #e41b17;
+}
+.price_table p
+{
+    font-size:28px;
+    font-weight:550;
+    padding-bottom:20px;
+    padding-top:15px; 
+    background-color:#efefef;
+    border-radius:50%;
+    height:100px;
+    width:100px;
+    line-height:70px
+}
+.price_table h3
+{
+    font-weight:bold;
+    padding-bottom:20px
+}
+.price_table li
+{
+    line-height:2.5;
+    font-size:15px;
+    font-weight:750
+}
+.price_table button
+{
+    border-radius:30px;
+    width:150px;
+    margin-top: 20px
+}
+.price_table button span
+{
+    font-weight:bold;
+    letter-spacing:1.3px;
 }
