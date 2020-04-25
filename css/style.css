@@ -74,7 +74,7 @@ width: 100%
 }
 .carousel
 {
- margin-top:60px;
+ margin-top:40px;
 position:relative;
 }
 .item
@@ -104,6 +104,25 @@ position:relative;
     height:120px;
     padding:30px;
 }
+.carousel .container{
+    background-color:#fff;
+}
+.about .container
+{
+       
+    background-image:url("../img/a2.jpg");
+    min-height:250px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#eee;padding:0;
+    background-attachment:fixed;
+     border-top-right-radius: 25px; 
+    border-top-left-radius: 25px;
+}
+.container
+{
+     border-bottom:1px solid #C49B66;
+}
 .about
 {
 
@@ -112,23 +131,23 @@ position:relative;
 {
     text-align: center;
     font-weight:bold;
-    color:#666666;
-    padding-top: 20px;
+    color:#eee;
+    padding-top: 40px;
 
 }
 .about h1 span
 {
     font-weight:bold;
      text-shadow: 3px 3px 10px gold;
-    color:#444444;
+    color:#eee;
     font-family: sans-serif;
     
 }
 .about p 
 {
-    color:#777777;
+    color:#cce;
     text-align: center;
-    padding-bottom:20px;
+    padding-bottom:40px;
     padding-top:10px
 }
 .features {
@@ -136,31 +155,55 @@ position:relative;
 }
 .features h2
 {
-    font-weight:900;
-    padding-top:10px;
+    font-weight:bold;
+    padding-top:30px;
     padding-bottom:20px;
+    margin-block-start: 0;
+    margin-block-end: 0.83em;
+    color:#ccc;
+    font-family: cursive;
 }
 .features .feat h4{
     font-weight:bold;
     font-family:cursive;
     padding-bottom:10px;
     padding-top:10px;
-    color:#191919;
+    color:#eee;
 }
 
 .features .feat .glyphicon{
     font-size:30px;
-    color:#595959;
+    color:#C49B66;
     font-weight:300
 }
 .features .feat p{
- color:#666666;
+ color:#eee;
  line-height:1.6;
+    padding-bottom:20px
+}
+.features .container
+{
+   background-color:#222
+}
+.opacity
+{
+    background: rgba(2,2,2,.92);
+     min-height:150px;
+    padding:20px 25px 10px 25px;
+}
+ .testimonials .container
+{
+     background-image:url("../img/a4.jpg");
+    min-height:250px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#eee;padding:0;
+    background-attachment:fixed;
 }
 .testimonials h2
 {
     font-weight:bold;
-    color:#404040;
+    color:#ccc;
 }
 .testimonials span
 {
@@ -175,7 +218,7 @@ position:relative;
 #user
 {
     font-size:50px;
-    color:	  #999999;
+    color:	  #C49B66;
     padding-top: 50px
 }
 .testimonials .carousel
@@ -190,25 +233,22 @@ position:relative;
 {
     background-color:#fff;   
 }
-.features .container , .price .container{
-    background-color:#e4e4e4
+.price .container{
+    background-color:#222
 }
-.about .container
-{
-        border-top-right-radius: 25px; 
-       border-top-left-radius: 25px;
-}
+
 .price h2
 {
     padding-top:20px;
     padding-bottom:20px;
     font-weight:bold;
+    color:#eee
 }
 .price .price_table
 {
     padding-bottom:20px;
     padding-top: 20px;
-    background-color:#fff;
+    background-color:#aaa;
     margin-bottom:50px;
 }
 .price .price_table p:hover
@@ -227,7 +267,7 @@ position:relative;
     font-weight:550;
     padding-bottom:20px;
     padding-top:15px; 
-    background-color:#efefef;
+    background-color:#C49B66;
     border-radius:50%;
     height:100px;
     width:100px;
@@ -254,4 +294,126 @@ position:relative;
 {
     font-weight:bold;
     letter-spacing:1.3px;
+}
+.staff h2
+{
+    font-weight:bold;
+    padding-top:30px;
+    color:#eee
+}
+.staff img
+{
+    max-height:200px;
+    max-width:200px;
+    margin-top:40px;
+}
+.staff .container
+{
+     background-image:url("../img/a1.jpg");
+    min-height:250px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#eee;padding:0;
+    background-attachment:fixed;
+}
+.staff h4
+{
+    padding-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:25px;
+    padding-bottom:10px
+}
+.staff p .lead
+{
+    padding-top:15px;
+    font-size:18px;
+}
+.staff p i
+{
+    padding:0px 15px 20px 0px;
+    font-size:20px;
+}
+.keep h2
+{
+   font-weight:bold;
+    padding-top:30px;
+        font-size:50px;
+    color:#fff ;
+    letter-spacing:2px;
+}
+.keep .container
+{
+        background-color:#222
+}
+.keep  p {
+    padding-top:15px;
+    font-size:18px;
+    color:#eee;
+    font-size:20px;
+    letter-spacing:2px;
+    font-family: sans-serif;
+    font-weight:400
+}
+.keep .form-control
+{
+    border-radius: 0px;
+}
+.keep .btn
+{
+    border-radius: 0px;
+    margin:20px 0px 20px -5px;
+}
+.keep form
+{
+      margin-bottom:50px;
+    margin-top:20px;
+}
+@media (min-width:1200px)
+{
+    .keep .form-control
+    {
+        width:550px;
+    }
+}
+@media (max-width:1199px and min-width:992px)
+{
+    .keep .form-control
+    {
+        width:550px;
+    }
+}
+
+.statistics .container
+{
+       background-image:url("../img/keyboard.jpg");
+    min-height:250px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#eee;padding:0;
+    background-attachment:fixed;
+}
+.opacity2
+{
+    background: rgba(2,2,2,.92);
+     min-height:290px;
+    padding:20px 25px 10px 25px;
+}
+.statistics h2
+{
+    padding-bottom:30px;
+}
+.statistics .num
+{
+    font-size:25px;
+    font-weight:700;
+    padding-top:20px;
+}
+.statistics i
+{
+    color:#C49B66
+}
+.statistics .row
+{
+    margin-bottom:20px;
 }
