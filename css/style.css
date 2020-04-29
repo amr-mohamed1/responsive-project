@@ -74,7 +74,7 @@ width: 100%
 }
 .carousel
 {
- margin-top:40px;
+ margin-top:28px;
 position:relative;
 }
 .item
@@ -106,6 +106,7 @@ position:relative;
 }
 .carousel .container{
     background-color:#fff;
+    padding:0px;
 }
 .about .container
 {
@@ -250,16 +251,13 @@ position:relative;
     padding-top: 20px;
     background-color:#aaa;
     margin-bottom:50px;
+     border-radius:30px;
+ border:2px solid #e41b17;
 }
 .price .price_table p:hover
 {
     border:2px solid #e41b17;
     background-color: #dfc8ab;
-}
-.price .price_table:hover
-{
- border-radius:30px;
- border:2px solid #e41b17;
 }
 .price_table p
 {
@@ -456,4 +454,17 @@ textarea.form-control
     background: rgba(82,78,78,.5);
     border:none;
     color:#fff;
+}
+.footer .container{
+padding: 30px 0;
+  background: #111;
+}
+.footer p{
+    color:#ccc;
+}
+.footer span
+{
+    color:#0895d1;
+    font-size:15px;
+    font-weight:700;
 }
